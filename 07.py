@@ -7,6 +7,6 @@ print(f"O número digitado foi: {numero}")
 print(f"O número é par? {eh_par}")
 
 #opção 2 - usando ternário
-eh_par = Truf if numero%2==0 else False
-print(f"O número digitado foi: {numero}")
-print(f"O número é par? {eh_par}")
+eh_par = "Par" if numero%2==0 else "Ímpar"
+print(f"O número digitado foi:", numero)
+print(f"O número é par?", eh_par)
