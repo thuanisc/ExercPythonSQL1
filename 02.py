@@ -9,7 +9,7 @@ produto = num1 * num2
 divisao = num1 / num2
 
 # Imprime os resultados
-print(f"Soma: {soma}")
-print(f"Diferença: {diferenca}")
-print(f"Produto: {produto}")
-print(f"Divisão: {divisao}")
+print(f"Soma: {soma:.2f}")
+print(f"Diferença: {diferenca:.2f}")
+print(f"Produto: {produto:.2f}")
+print(f"Divisão: {divisao:.2f}")
