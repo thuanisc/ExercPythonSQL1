@@ -8,7 +8,6 @@ diferenca = num1 - num2
 produto = num1 * num2
 divisao = num1 / num2
 
-# Imprime os resultados
 print(f"Soma: {soma:.2f}")
 print(f"Diferença: {diferenca:.2f}")
 print(f"Produto: {produto:.2f}")
