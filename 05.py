@@ -8,4 +8,16 @@ gosta_de_programar = True
 print(f"Moro na cidade de {cidade}. \n"
       f"Nasci no ano de {ano_nascimento}. \n"
       f"Minha altura é de {altura} metros. \n"
-      f"É verdade que gosto de programar? {'Gosto' if gosta_de_programar else 'Não gosto'}.")
+      f"É verdade que gosto de programar? {'Gosto' if gosta_de_programar else 'Não gosto'}.") #ternário
+
+#opção 2 (com input)
+
+cidade = input("Digite sua cidade favorita: ")
+ano_nascimento = int(input("Digite seu ano de nascimento: "))
+altura = float(input("Digite sua altura em metros: "))
+gosta_de_programar = True if input("Você gosta de programar? (S/N)") == "s" else False #boolean só vai dar falso se não digitar nada
+
+print(f"Moro na cidade de {cidade}. \n"
+      f"Nasci no ano de {ano_nascimento}. \n"
+      f"Minha altura é de {altura} metros. \n"
+      f"Eu {'gosto' if gosta_de_programar else 'não gosto'} de programar.") #ternário
