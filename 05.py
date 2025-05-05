@@ -10,6 +10,7 @@ print(f"Moro na cidade de {cidade}. \n"
       f"Minha altura é de {altura} metros. \n"
       f"É verdade que gosto de programar? {'Gosto' if gosta_de_programar else 'Não gosto'}.") #ternário
 
+
 #opção 2 (com input)
 
 cidade = input("Digite sua cidade favorita: ")
