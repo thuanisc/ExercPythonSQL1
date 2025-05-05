@@ -4,3 +4,7 @@ estacoes = ("Primavera", "Verão", "Outono", "Inverno")
 
 for indice, estacao in enumerate(estacoes):
     print(f"A estação {estacao} está no índice {indice}")
+
+#opção 2 - usando range
+for i in range(4):
+    print(estacoes[i])
