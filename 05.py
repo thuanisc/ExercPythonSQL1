@@ -5,7 +5,7 @@ ano_nascimento = 1995
 altura = 1.73
 gosta_de_programar = True
 
-print(f"Moro na cidade de {cidade}.")
-print(f"Nasci no ano de {ano_nascimento}.")
-print(f"Minha altura é de {altura} metros.")
-print(f"É verdade que gosto de programar? {gosta_de_programar}")
+print(f"Moro na cidade de {cidade}. \n"
+      f"Nasci no ano de {ano_nascimento}. \n"
+      f"Minha altura é de {altura} metros. \n"
+      f"É verdade que gosto de programar? {'Gosto' if gosta_de_programar else 'Não gosto'}.")
