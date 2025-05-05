@@ -4,7 +4,7 @@ frutas = ["maçã", "banana", "laranja", "uva", "melancia"]
 
 
 frutas.append("abacaxi")
-frutas.remove("banana")
+frutas.remove("banana") #ou frutas.pop(1)
 
 print("Lista final de frutas:")
 print(frutas)
