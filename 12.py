@@ -2,7 +2,7 @@
 
 numeros = []
 
-for i in range(3):
+for i in range(3): #loopings de 3 repetições
     numero_posicao = i+1
     numero = float(input(f"Digite o {numero_posicao}º número: "))
     numeros.append(numero)
