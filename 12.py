@@ -7,5 +7,5 @@ for i in range(3): #loopings de 3 repetições
     numero = float(input(f"Digite o {numero_posicao}º número: "))
     numeros.append(numero)
 
-numeros.sort()
+numeros.sort() #ordem crescente
 print("Lista ordenada:", numeros)
